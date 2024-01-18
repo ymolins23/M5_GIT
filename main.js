@@ -3,3 +3,4 @@ const gcdMultiple = (...arr) => [...arr].reduce((a, b) => gcd(a, b));
 
 gcdMultiple(8, 3); // 3
 gcdMultiple(...[12, 8, 3]); // 3
+
